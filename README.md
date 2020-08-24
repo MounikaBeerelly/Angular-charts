@@ -5,9 +5,10 @@
 3. Move to the project directory using **cd Charts**.
 4. Run the application using **ng serve**.
 
-- ### Developing Charts in angular
-1. install charts.js library using the command **npm install chart.js --open**
-2. 
+- ### Install Charts libraries in angular
+1. install charts.js library using the command **npm install chart.js**
+2. install d3.js library using the command **npm install d3.js**
+
 
 
 
