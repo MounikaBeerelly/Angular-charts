@@ -1,0 +1,31 @@
+<!-- <app-line-chart></app-line-chart> 
+<app-dashboard-charts></app-dashboard-charts> 
+<header>
+  <h1>Angular + D3 </h1>
+</header>
+<app-d3-bar-chart></app-d3-bar-chart>
+<app-d3-pie-chart></app-d3-pie-chart>
+<app-d3-scatter-chart></app-d3-scatter-chart> 
+<app-bar></app-bar>
+<app-line></app-line>
+-->
+<header>
+  <h1>Angular + D3 </h1>
+</header>
+  <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <div class="container">
+      <a class="navbar-brand">Angular Charts</a>
+      <ul class="nav navbar-nav" routerLinkActive="active">
+        <li class="nav-item"><a class="nav-link" [routerLink]="['d3-bar-chart']">d3BarChart</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['d3-pie-chart']">d3PieChart</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['d3-scatter-chart']">d3ScatterChart</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['line-chart']">LineChart</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['dashboard-charts']">DashboardCharts</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['bar']">BarChart</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['bar1']">Bar1Chart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
+
